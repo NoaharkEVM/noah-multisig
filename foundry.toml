@@ -1,0 +1,7 @@
+[default]
+optimizer = true
+optimizer_runs = 200
+src = 'contracts'
+out = 'artifacts'
+[rpc_endpoints]
+optimism = ""
