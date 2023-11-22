@@ -249,8 +249,6 @@ contract MultiSig is Context, ERC165, EIP712, IMultiSig, IERC721Receiver, IERC11
 			expiration, // expiration
 			0 //weight
 		);
-		_transactionNonce = transactionId;
-
 		_approve(transactionId, msg.sender);
 
 		emit TransactionCreated(
