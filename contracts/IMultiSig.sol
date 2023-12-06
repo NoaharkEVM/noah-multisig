@@ -65,9 +65,9 @@ interface IMultiSig {
 
 	function signersForApproved(uint256 transactionId) external view returns (address[] memory);
 
-	function setThreshold(uint256 threshold) external;
+	function setThreshold(uint256 __threshold) external;
 
-	function setPeriod(uint256 period) external;
+	function setPeriod(uint256 __period) external;
 
 	function approve(uint256 transactionId) external returns (uint256);
 
